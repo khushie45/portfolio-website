@@ -1,0 +1,16 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-size: 0.9em;
+        
+        .home {
+            margin: 20px;
+        }
+    }
+}
+
+.home {
+    margin: 100px;
+    font-family: 'panchang', sans-serif;
+    line-height: 2;
+    font-size: larger;
+}

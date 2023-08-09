@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* @media (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-size: 0.6em;
+    }
+} */
+
+body {
+    background-color: rgb(12, 12, 12);
+    color: rgb(246, 66, 96);
+}
