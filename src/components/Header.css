@@ -1,15 +1,17 @@
 @media (min-width: 320px) and (max-width: 480px) {
     nav {
-        font-size: 0.6em;
+        font-size: 0.65em;
     }
 }
 
 nav {
-    font-family: 'panchang', sans-serif;
     display: flex;
     justify-content: space-between;
     padding: 20px;
     border-bottom: 1px solid;
+    position: sticky;
+    top: 0;
+    background-color: rgb(12, 12, 12);
 }
 
 .nav--div {
@@ -24,4 +26,10 @@ ul {
 
 li {
     padding: 0 10px;
+    
+}
+
+.links {
+    text-decoration: none;
+    color: inherit;
 }

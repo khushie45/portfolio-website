@@ -10,7 +10,40 @@
 
 .home {
     margin: 100px;
-    font-family: 'panchang', sans-serif;
     line-height: 2;
     font-size: larger;
+}
+
+.home--button {
+    font-family: 'panchang', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: none;
+    border: 1px solid rgb(246, 66, 96);
+    border-radius: 5px;
+    color: rgb(246, 66, 96);
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid rgb(246, 66, 96);
+    animation: glowing 10s linear infinite;
+}
+
+@keyframes glowing {
+    0%   {border:2px solid red; }
+    10%  {border:2px solid rgb(215, 215, 59);}
+    15%  {border:2px solid blue;}
+    30%  {border:2px solid red; }
+    40%  {border:2px solid rgb(215, 215, 59);}
+    45%  {border:2px solid blue;}
+    50%  {border:2px solid red; }
+    60%  {border:2px solid rgb(215, 215, 59);}
+    65%  {border:2px solid blue;}
+    70%  {border:2px solid red; }
+    80%  {border:2px solid rgb(215, 215, 59);}
+    85%  {border:2px solid blue;}
+    90%  {border:2px solid red;}
+    100% {border:2px solid rgb(215, 215, 59);}
 }

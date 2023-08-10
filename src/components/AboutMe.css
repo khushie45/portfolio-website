@@ -1,0 +1,24 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-size: 0.9em;
+        
+        .about {
+            margin: 350px 20px;
+        }
+
+        .about--info {
+            font-size: 1em;
+        }
+    }
+}
+
+.about {
+    margin: 300px 100px;
+}
+
+.about--info {
+    font-family: 'REM', sans-serif;
+    margin-top: 20px;
+    line-height: 2;
+    font-size: 22px;
+}
