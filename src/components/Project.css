@@ -1,0 +1,55 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-size: 0.9em;
+        
+        .project {
+            margin: 20px;
+        }
+
+        .project--card {
+            margin: 35px 0;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        }
+    }
+}
+
+.project {
+    margin: 0 100px;
+}
+
+.project--card {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 0.31fr));
+    gap: 2em;
+}
+
+.project--item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(211, 211, 211);
+    position: relative;
+}
+
+.project--img {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.project--info {
+    padding: 30px;
+    position: absolute;
+    display: none;
+    background-color: rgba(80, 80, 80, 0.705);
+    font-family: 'rem', sans-serif;
+}
+
+.project--item:hover .project--info {
+    display: block;
+    bottom: 0;
+}

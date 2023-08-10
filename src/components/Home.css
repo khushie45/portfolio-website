@@ -20,14 +20,10 @@
     margin-top: 20px;
     padding: 10px 20px;
     background: none;
-    border: 1px solid rgb(246, 66, 96);
+    border: 1px solid rgb(233, 237, 240);;
     border-radius: 5px;
-    color: rgb(246, 66, 96);
+    color: rgb(233, 237, 240);;
     cursor: pointer;
-}
-
-button:hover {
-    border: 1px solid rgb(246, 66, 96);
     animation: glowing 10s linear infinite;
 }
 
@@ -46,4 +42,8 @@ button:hover {
     85%  {border:2px solid blue;}
     90%  {border:2px solid red;}
     100% {border:2px solid rgb(215, 215, 59);}
+}
+
+.home--button:hover {
+    background-color: rgb(51, 50, 49);
 }

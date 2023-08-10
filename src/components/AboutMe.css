@@ -3,7 +3,7 @@
         font-size: 0.9em;
         
         .about {
-            margin: 350px 20px;
+            margin: 350px 20px 100px 20px;
         }
 
         .about--info {
@@ -13,7 +13,7 @@
 }
 
 .about {
-    margin: 300px 100px;
+    margin: 300px 100px 100px 100px;
 }
 
 .about--info {
