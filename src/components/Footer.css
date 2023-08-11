@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 130px;
+    border-top: 1px solid;  
+    background-color: rgb(36, 36, 36);
+}
+
+.footer--links a {
+    color: #ffffff;
+    margin: 10px;
+}
+
+.footer--links a:hover {
+    color: rgb(254, 110, 110);
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: large;
+}

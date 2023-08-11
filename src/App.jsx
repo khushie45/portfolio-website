@@ -7,6 +7,7 @@ import AboutMe from './components/AboutMe'
 import Skills from './components/Skills'
 import Project from './components/Project'
 import ContactForm from './components/ContactForm'
+import Footer from './components/Footer'
 import { Toaster } from 'react-hot-toast'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
                 <Project />
                 <Skills />
                 <ContactForm />
+                <Footer />
               </>
             } 
           />

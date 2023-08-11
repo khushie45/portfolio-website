@@ -35,6 +35,8 @@
     width: 300px;
     height: 350px;
     border-radius: 10px;
+    position: relative;
+    opacity: 1;
 }
 
 .project--info {
@@ -50,6 +52,10 @@
 .project--item:hover .project--info {
     display: block;
     bottom: 0;
+}
+
+.project--item:hover .project--img {
+    opacity: 0.5;
 }
 
 .project--item:hover {

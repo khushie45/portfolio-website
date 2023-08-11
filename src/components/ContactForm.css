@@ -9,36 +9,45 @@
             letter-spacing: 2px;
         }
         
-        .contact--form {
-            display: flex;
-            flex-direction: column;
-            gap: 1em;
-        }
-        
         .contact--form input, textarea{
             max-width: 90%;
         }
-        
-        .contact--form input:focus, textarea:focus {
-            outline: none;
+                
+        .contact--grid {
+            display: block;
         }
-        
-        .contact--form button {
-            padding: 10px 20px;
-            margin-top: 20px;
-            width: 100px;
-            border-radius: 5px;
-            border: 2px solid white;
-            background-color: inherit;
-            font-family: 'panchang', sans-serif;
-            font-size: 15px;
-            color: rgb(233, 237, 240);
+
+        .contact--vertical--line {
+            display: none;
         }
-        
-        .contact--form button:hover {
-            background-color: rgb(51, 50, 49);
-            border-color: rgb(72, 72, 242);
-            cursor: pointer;
+
+        .contact--mail p {
+            font-size: 1em;
+            margin: 15px 5px 0 0;
+        }
+
+        .contact--mail a p {
+            margin-top: 5px !important;
+        }
+    }
+}
+
+@media (max-width: 1050px) {
+    body {
+        .contact--grid {
+            display: block;
+        }
+
+        .contact--vertical--line {
+            display: none;
+        }
+
+        .contact--mail p {
+            margin: 30px 0 10px 0;
+        }
+
+        .contact--mail a p {
+            margin-top: 0;
         }
     }
 }
@@ -67,7 +76,7 @@
     background-color: inherit;
     border: 2px solid white;
     border-radius: 5px;
-    max-width: 50%;
+    width: 500px;
     padding: 10px;
     color: white;
 }
@@ -90,6 +99,35 @@
 
 .contact--form button:hover {
     background-color: rgb(51, 50, 49);
-    border-color: rgb(72, 72, 242);
+    border-color: rgb(254, 110, 110);
     cursor: pointer;
+}
+
+.contact--grid {
+    display: grid;
+    grid-template-columns: auto 0 auto;
+    gap: 40px;
+}
+
+.contact--vertical--line {
+    border: 2px solid rgb(254, 110, 110);
+    height: 100%;
+}
+
+.contact--mail p {
+    font-family: 'rem';
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    line-height: 2;
+    margin-bottom: 15px;
+}
+
+.contact--mail a {
+    display: flex;
+    text-decoration: none;
+    color: rgb(254, 110, 110);
+}
+
+.contact--mail a p{
+    margin-left: 10px;
 }

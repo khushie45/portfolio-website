@@ -1,6 +1,8 @@
 import React from 'react'
 import './Project.css'
 import { projects } from './data';
+import { TbWorld } from 'react-icons/tb'
+import { TbBrandGithubFilled } from 'react-icons/tb'
 
 function Project() {
   return (
@@ -9,6 +11,8 @@ function Project() {
         <div className='project--card'>
           {projects.map((project) => (
               <div key={project.image} className='project--item'>
+                {/* <TbBrandGithubFilled />
+                <TbWorld /> */}
                 <img
                   alt="gallery"
                   src={project.image}

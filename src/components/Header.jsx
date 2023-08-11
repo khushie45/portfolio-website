@@ -14,7 +14,9 @@ function Header() {
   return (
     <nav className="navbar">
       <div className="container">
-        <h1>Khushi</h1>
+        <h1>
+          <AnchorLink className='links' href='#home'>&lt;Khushi&gt;</AnchorLink>
+        </h1>
         <div className="menu-icon" onClick={handleShowNavbar}>
           <HiMenu size={25}/>
         </div>
