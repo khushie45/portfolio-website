@@ -27,10 +27,13 @@ function Header() {
                   <AnchorLink className='links' href='#about'>About</AnchorLink>
                 </li>
                 <li>
+                  <AnchorLink className='links' href='#projects'>Projects</AnchorLink>
+                </li>
+                <li>
                   <AnchorLink className='links' href='#skills'>Skills</AnchorLink>
                 </li>
                 <li>
-                  <AnchorLink className='links' href='#projects'>Projects</AnchorLink>
+                  <AnchorLink className='links' href='#contact'>Contact</AnchorLink>
                 </li>
               </ul>
         </div>

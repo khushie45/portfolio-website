@@ -1,0 +1,95 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        .contact {
+            margin: 40px 0 20px 20px;
+        }
+        
+        .contact h3 {
+            margin: 20px 0;
+            letter-spacing: 2px;
+        }
+        
+        .contact--form {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+        
+        .contact--form input, textarea{
+            max-width: 90%;
+        }
+        
+        .contact--form input:focus, textarea:focus {
+            outline: none;
+        }
+        
+        .contact--form button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            width: 100px;
+            border-radius: 5px;
+            border: 2px solid white;
+            background-color: inherit;
+            font-family: 'panchang', sans-serif;
+            font-size: 15px;
+            color: rgb(233, 237, 240);
+        }
+        
+        .contact--form button:hover {
+            background-color: rgb(51, 50, 49);
+            border-color: rgb(72, 72, 242);
+            cursor: pointer;
+        }
+    }
+}
+
+.contact {
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.contact h3 {
+    margin: 30px 0;
+    letter-spacing: 3px;
+    font-family: 'rem';
+    font-size: 25px;
+}
+
+.contact--form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.contact--form input, textarea{
+    font-size: 18px;
+    font-family: 'rem', sans-serif;
+    background-color: inherit;
+    border: 2px solid white;
+    border-radius: 5px;
+    max-width: 50%;
+    padding: 10px;
+    color: white;
+}
+
+.contact--form input:focus, textarea:focus {
+    outline: none;
+}
+
+.contact--form button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid white;
+    background-color: inherit;
+    font-family: 'panchang', sans-serif;
+    font-size: 15px;
+    color: rgb(233, 237, 240);
+}
+
+.contact--form button:hover {
+    background-color: rgb(51, 50, 49);
+    border-color: rgb(72, 72, 242);
+    cursor: pointer;
+}

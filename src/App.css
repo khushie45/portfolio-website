@@ -3,9 +3,19 @@
     margin: 0;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+    body {   
+        font-size: 0.9em;
+    }
+}
+
 body {
     font-family: 'panchang', sans-serif;
     background-color: rgb(36, 36, 36);
     /* color: rgb(246, 66, 96); */
     color: rgb(233, 237, 240);
+}
+
+.toaster {
+    font-family: 'rem', sans-serif;
 }

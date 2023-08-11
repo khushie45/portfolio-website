@@ -1,14 +1,11 @@
 @media (min-width: 320px) and (max-width: 480px) {
-    body {
-        font-size: 0.9em;
-        
+    body {        
         .project {
             margin: 20px;
         }
 
         .project--card {
             margin: 35px 0;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         }
     }
 }
@@ -20,8 +17,7 @@
 .project--card {
     margin: 50px 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 0.31fr));
-    gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 350px));
 }
 
 .project--item {
@@ -31,7 +27,7 @@
     align-items: center;
     padding: 20px;
     border-radius: 10px;
-    background-color: rgb(211, 211, 211);
+    /* background-color: rgb(128, 127, 127); */
     position: relative;
 }
 
@@ -42,14 +38,20 @@
 }
 
 .project--info {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     padding: 30px;
     position: absolute;
     display: none;
-    background-color: rgba(80, 80, 80, 0.705);
+    background-color: rgba(91, 91, 91, 0.705);
     font-family: 'rem', sans-serif;
 }
 
 .project--item:hover .project--info {
     display: block;
     bottom: 0;
+}
+
+.project--item:hover {
+    border: 2px solid rgb(74, 74, 74);
 }

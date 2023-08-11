@@ -1,7 +1,5 @@
 @media (min-width: 320px) and (max-width: 480px) {
     body {
-        font-size: 0.9em;
-        
         .about {
             margin: 350px 20px 100px 20px;
         }

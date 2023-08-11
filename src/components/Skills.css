@@ -1,0 +1,86 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        .skills {
+            margin: 20px;
+        }
+
+        .skills--section {
+            font-size: 10px;
+        }
+
+        .skills--section button {
+            font-size: 8px;
+            padding: 5px;
+            border-radius: 15px;
+            margin-left: 10px
+        }
+
+        .skills--learningPath {
+            font-size: 1em;
+        }
+
+        .skills--learningPath ul {
+            margin: 10px;
+            padding: 0;
+        }
+    }
+}
+
+.skills {
+    margin: 100px;
+}
+
+.skills--section {
+    margin-top: 40px;
+    font-family: 'rem', sans-serif;
+    font-size: 22px;
+    display: flex;
+}
+
+.skills--section button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    animation: glow 10s linear infinite;
+    background-color: inherit;
+    font-family: 'panchang', sans-serif;
+    font-size: 15px;
+    color: rgb(233, 237, 240);
+}
+
+@keyframes glow {
+    0%   {border:2px solid rgb(233, 50, 80); }
+    10%  {border:2px solid white;}
+    15%  {border:2px solid blue;}
+    30%  {border:2px solid rgb(233, 50, 80); }
+    40%  {border:2px solid white;}
+    45%  {border:2px solid blue;}
+    50%  {border:2px solid rgb(233, 50, 80); }
+    60%  {border:2px solid white;}
+    65%  {border:2px solid blue;}
+    70%  {border:2px solid rgb(233, 50, 80); }
+    80%  {border:2px solid white;}
+    85%  {border:2px solid blue;}
+    90%  {border:2px solid rgb(233, 50, 80);}
+    100% {border:2px solid white;}
+}
+
+button:hover {
+    background-color: rgb(51, 50, 49);
+}
+
+.skills--learningPath {
+    margin-top: 30px;
+    font-family: 'rem', sans-serif;
+    font-size: 22px;
+}
+
+.skills--learningPath ul {
+    margin-top: 20px;
+    list-style: square;
+}
+
+.skills--learningPath li {
+    margin: 15px 0;
+    line-height: 2;
+}

@@ -47,7 +47,7 @@
     padding: 20px;
 }
 
-.container > h1 {
+.container h1 {
     margin-left: 5px;
 }
 
@@ -55,12 +55,12 @@
     display: none;
 }
   
-ul {
+.nav-elements ul {
     display: flex;
     list-style-type: none;
 }
 
-li {
+.nav-elements li {
     padding: 0 10px;
 }
 
