@@ -1,8 +1,8 @@
-import ShopSphere from '../assets/ShopSphere.png'
-import Portfolio from '../assets/Portfolio.png'
-import Formify from '../assets/Formify.png'
-import TaskEase from '../assets/TaskEase.png'
-import MemeMix from '../assets/MemeMix.png'
+import ShopSphere from '../assets/ShopSphere.PNG'
+import Portfolio from '../assets/Portfolio.PNG'
+import Formify from '../assets/Formify.PNG'
+import TaskEase from '../assets/TaskEase.PNG'
+import MemeMix from '../assets/MemeMix.PNG'
 
 export const projects = [
   {

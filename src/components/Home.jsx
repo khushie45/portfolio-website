@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './Home.css'
 import AnchorLink from "react-anchor-link-smooth-scroll";
-import TypeWriter from './typeWriter';
+import TypeWriter from './TypeWriter';
 
 function Home() {
   return (
