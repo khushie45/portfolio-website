@@ -1,3 +1,11 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        .footer p{
+            font-size: 1em;
+        }
+    }
+}
+
 .footer {
     display: flex;
     align-items: center;

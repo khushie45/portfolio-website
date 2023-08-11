@@ -12,6 +12,10 @@
     font-size: larger;
 }
 
+.home span {
+    color: rgb(254, 110, 110);
+}
+
 .home--button {
     font-family: 'panchang', sans-serif;
     font-size: 18px;
@@ -19,7 +23,7 @@
     padding: 10px 20px;
     background: none;
     border-radius: 5px;
-    color: rgb(233, 237, 240);
+    color: white;
     cursor: pointer;
     animation: glowing 10s linear infinite;
 }

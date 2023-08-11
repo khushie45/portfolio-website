@@ -94,12 +94,13 @@
     background-color: inherit;
     font-family: 'panchang', sans-serif;
     font-size: 15px;
-    color: rgb(233, 237, 240);
+    color: white;
 }
 
 .contact--form button:hover {
     background-color: rgb(51, 50, 49);
     border-color: rgb(254, 110, 110);
+    color: rgb(254, 110, 110);
     cursor: pointer;
 }
 

@@ -4,22 +4,27 @@
             display: block;
             cursor: pointer;
         }
+
+        .menu-icon:hover {
+            color: rgb(254, 110, 110);
+        }
         
         .nav-elements {
             position: absolute;
+            width: 0;
             right: 0;
             top: 71px;
             background-color: #3f3f3f;
             border-bottom-left-radius: 10px;
             font-size: 17px;
             height: calc(100vh - 60vh);
-            transition: all 0.3s ease-in;
+            /* transition: all 0.3s ease-in; */
             overflow: hidden;
-            padding-right: 40px;
         }
     
         .nav-elements.active {
-            width: max-content
+            width: max-content;
+            padding-right: 40px;
         }
     
         .nav-elements ul {
@@ -49,6 +54,10 @@
 
 .container h1 {
     margin-left: 5px;
+}
+
+.container h1:hover {
+    color: rgb(254, 110, 110);
 }
 
 .menu-icon {

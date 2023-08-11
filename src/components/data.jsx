@@ -1,34 +1,43 @@
+import ShopSphere from '../assets/ShopSphere.png'
+import Portfolio from '../assets/Portfolio.png'
+import Formify from '../assets/Formify.png'
+import TaskEase from '../assets/TaskEase.png'
+import MemeMix from '../assets/MemeMix.png'
+
 export const projects = [
   {
-    title: "Amazon Clone",
-    tech: "React, Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHJhbmRvbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    link: "https://reactbootcamp.com",
+    title: "ShopSphere",
+    description: "Crafted using React.js and Firebase, ShopSphere is an Amazon clone offers an immersive online shopping experience. Browse, add to cart, and seamlessly check out, all in one platform. Discover the convenience of e-commerce with my user-friendly and secure application.",
+    image: ShopSphere,
+    github: "https://github.com/khushie45/amazon-clone",
+    demo: "https://khushie45-amazon-clone.netlify.app/"
   },
   {
-    title: "React",
-    subtitle: "React and Python",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cmFuZG9tfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
-    link: "https://reedbarger.com",
+    title: "My-Portfolio",
+    description: "Discover my portfolio website, built with React.js and an array of libraries. Experience a showcase of my projects and skills in a user-friendly and engaging format.",
+    image: Portfolio,
+    github: "https://github.com/khushie45/portfolio-website",
+    demo: "https://khushie-portfolio.netlify.app/"
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "https://images.unsplash.com/photo-1613336026275-d6d473084e85?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJhbmRvbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    link: "https://jsbootcamp.com",
+    title: "Formify",
+    description: "My React Forms project, where I learnt form inputs, validations, and dark mode implementation. Drawing inspiration from Tailwind UI components and utilizing React Form Hooks, this platform showcases my ability to create intuitive and stylish user interactions.",
+    image: Formify,
+    github: "https://github.com/khushie45/react-forms",
+    demo: "https://khushie45-react-form.netlify.app/"
   },
   {
-    title: "Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "https://images.unsplash.com/photo-1550686041-366ad85a1355?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHJhbmRvbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    link: "https://pythonbootcamp.com",
+    title: "TaskEase",
+    description: "A comprehensive todo list application with create, edit, and delete functionalities. Seamlessly managing tasks, this project demonstrates my proficiency in designing efficient and user-friendly task management solutions.",
+    image: TaskEase,
+    github: "https://github.com/khushie45/todo-list",
+    demo: "https://khushie45-todo-list.netlify.app/"
+  },
+  {
+    title: "MemeMix",
+    description: "An interactive meme generator that seamlessly combines image customization with creativity. With the ability to overlay text on random images sourced from an API, this project exemplifies my ability to merge coding skills with imaginative design.",
+    image: MemeMix,
+    github: "https://github.com/khushie45/Meme-Generator",
+    demo: "https://khushie45-meme-generator.netlify.app/"
   },
 ];
