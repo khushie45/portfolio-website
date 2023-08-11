@@ -1,5 +1,5 @@
 import ShopSphere from '../assets/ShopSphere.PNG'
-import Portfolio from '../assets/Portfolio.PNG'
+// import Portfolio from '../assets/Portfolio.PNG'
 import Formify from '../assets/Formify.PNG'
 import TaskEase from '../assets/TaskEase.PNG'
 import MemeMix from '../assets/MemeMix.PNG'
@@ -12,13 +12,13 @@ export const projects = [
     github: "https://github.com/khushie45/amazon-clone",
     demo: "https://khushie45-amazon-clone.netlify.app/"
   },
-  {
-    title: "My-Portfolio",
-    description: "Discover my portfolio website, built with React.js and an array of libraries. Experience a showcase of my projects and skills in a user-friendly and engaging format.",
-    image: Portfolio,
-    github: "https://github.com/khushie45/portfolio-website",
-    demo: "https://khushie-portfolio.netlify.app/"
-  },
+  // {
+  //   title: "My-Portfolio",
+  //   description: "Discover my portfolio website, built with React.js and an array of libraries. Experience a showcase of my projects and skills in a user-friendly and engaging format.",
+  //   image: Portfolio,
+  //   github: "https://github.com/khushie45/portfolio-website",
+  //   demo: "https://khushie-portfolio.netlify.app/"
+  // },
   {
     title: "Formify",
     description: "My React Forms project, where I learnt form inputs, validations, and dark mode implementation. Drawing inspiration from Tailwind UI components and utilizing React Form Hooks, this platform showcases my ability to create intuitive and stylish user interactions.",
