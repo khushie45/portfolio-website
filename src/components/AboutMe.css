@@ -7,6 +7,11 @@
         .about--info {
             font-size: 1em;
         }
+
+        .about--button--resume {
+            font-size: 16px;
+            padding: 10px;
+        }
     }
 }
 
@@ -19,4 +24,51 @@
     margin-top: 20px;
     line-height: 2;
     font-size: 22px;
+}
+
+.about--info li {
+    list-style-type: none;
+}
+
+.about--button {
+    display: flex;
+    align-items: center;
+}
+
+.about--button--open, .about--button--download{
+    padding: auto;
+    border: none ;
+    background-color: inherit;
+    color: white;
+}
+
+.about--button--open {
+    margin-left: 5px;
+}
+
+.about--button--open:hover, .about--button--download:hover {
+    /* background-color: rgb(51, 50, 49); */
+    /* border-color: rgb(254, 110, 110); */
+    color: rgb(254, 110, 110);
+    cursor: pointer;
+}
+
+.about--button--resume {
+    background-color: inherit;
+    border: none;
+    font-family: 'panchang', sans-serif;
+    color: rgb(254, 110, 110);;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 0 5px 1px rgb(254, 110, 110);
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+.about--button--resume:hover {
+    background-color: rgb(51, 50, 49);
+    box-shadow: 0 0 5px 2px rgb(254, 110, 110);
 }

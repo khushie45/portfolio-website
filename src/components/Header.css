@@ -58,6 +58,7 @@
 
 .container h1:hover {
     color: rgb(254, 110, 110);
+    cursor: pointer;
 }
 
 .menu-icon {
@@ -94,4 +95,4 @@
 .links {
     text-decoration: none;
     color: inherit;
-} 
+}
