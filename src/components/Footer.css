@@ -1,7 +1,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
     body {
         .footer p{
-            font-size: 1em;
+            font-size: 18px;
         }
     }
 }
@@ -27,5 +27,5 @@
 
 .footer p {
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 24px;
 }

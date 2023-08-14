@@ -10,13 +10,13 @@
 
         .skills--section button {
             font-size: 8px;
-            padding: 5px;
+            padding: 6px;
             border-radius: 15px;
             margin-left: 10px
         }
 
         .skills--learningPath {
-            font-size: 1em;
+            font-size: 18px;
         }
 
         .skills--learningPath ul {
@@ -35,6 +35,7 @@
     font-family: 'quicksand', sans-serif;
     font-size: 20px;
     display: flex;
+    line-height: 2;
 }
 
 .skills--section button {

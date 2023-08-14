@@ -11,7 +11,7 @@
         }
         
         .contact--form input, textarea{
-            max-width: 90%;
+            max-width: 95%;
         }
                 
         .contact--grid {
@@ -23,7 +23,7 @@
         }
 
         .contact--mail p {
-            font-size: 1em;
+            font-size: 18px;
             margin: 15px 5px 0 0;
         }
 
