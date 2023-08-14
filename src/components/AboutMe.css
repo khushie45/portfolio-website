@@ -1,7 +1,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
     body {
         .about {
-            margin: 350px 20px 100px 20px;
+            margin: 230px 20px 100px 20px;
         }
 
         .about--info {
@@ -16,14 +16,14 @@
 }
 
 .about {
-    margin: 300px 100px 100px 100px;
+    margin: 100px;
 }
 
 .about--info {
-    font-family: 'REM', sans-serif;
+    font-family: 'quicksand', sans-serif;
     margin-top: 20px;
     line-height: 2;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .about--info li {
@@ -56,13 +56,14 @@
 .about--button--resume {
     background-color: inherit;
     border: none;
-    font-family: 'panchang', sans-serif;
+    font-family: 'quicksand', sans-serif;
     color: rgb(254, 110, 110);;
     display: flex;
     align-items: center;
     padding: 15px;
     box-shadow: 0 0 5px 1px rgb(254, 110, 110);
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: 700;
     letter-spacing: 1px;
     border-radius: 6px;
     margin-top: 30px;

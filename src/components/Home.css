@@ -9,7 +9,7 @@
 .home {
     margin: 100px;
     line-height: 2;
-    font-size: larger;
+    font-size: 23px;
 }
 
 .home span {
@@ -17,8 +17,9 @@
 }
 
 .home--button {
-    font-family: 'panchang', sans-serif;
-    font-size: 18px;
+    font-family: 'quicksand', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
     margin-top: 20px;
     padding: 10px 20px;
     background: none;

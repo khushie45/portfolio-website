@@ -1,7 +1,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
     body {        
         .project {
-            margin: 20px;
+            margin: 20px 20px 80px;
         }
 
         .project--card {
@@ -29,7 +29,7 @@
     border-radius: 10px;
     /* background-color: rgb(128, 127, 127); */
     box-shadow: 0 0 6px 3px rgb(254, 110, 110);
-    font-family: 'rem', sans-serif;
+    font-family: 'quicksand', sans-serif;
 }
 
 .project--item:hover {
@@ -53,6 +53,7 @@
 
 .project--info {
     padding: 10px;
+    font-size: 18px;
 }
 
 .project--info h2 {
@@ -67,7 +68,7 @@
 
 .project--info p {
     margin: 20px 0;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
 .project--info--button {
@@ -85,8 +86,9 @@
     padding: 10px;
     border: 1px solid;
     border-radius: 5px;
-    font-family: 'rem', sans-serif;
-    font-size: 13px;
+    font-family: 'quicksand', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .project--info--button button:hover {

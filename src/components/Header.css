@@ -16,7 +16,7 @@
             top: 71px;
             background-color: #3f3f3f;
             border-bottom-left-radius: 10px;
-            font-size: 17px;
+            font-size: 20px;
             height: calc(100vh - 60vh);
             /* transition: all 0.3s ease-in; */
             overflow: hidden;
@@ -39,6 +39,8 @@
 }
 
 .navbar {
+    font-size: 22px;
+    font-weight: 700;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -53,7 +55,9 @@
 }
 
 .container h1 {
+    font-size: 30px;
     margin-left: 5px;
+    font-weight: 700;
 }
 
 .container h1:hover {

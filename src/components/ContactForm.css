@@ -7,6 +7,7 @@
         .contact h3 {
             margin: 20px 0;
             letter-spacing: 2px;
+            font-size: 21px;
         }
         
         .contact--form input, textarea{
@@ -60,7 +61,7 @@
 .contact h3 {
     margin: 30px 0;
     letter-spacing: 3px;
-    font-family: 'rem';
+    font-family: 'quicksand';
     font-size: 25px;
 }
 
@@ -72,7 +73,7 @@
 
 .contact--form input, textarea{
     font-size: 18px;
-    font-family: 'rem', sans-serif;
+    font-family: 'quicksand', sans-serif;
     background-color: inherit;
     border: 2px solid white;
     border-radius: 5px;
@@ -92,8 +93,9 @@
     border-radius: 5px;
     border: 2px solid white;
     background-color: inherit;
-    font-family: 'panchang', sans-serif;
-    font-size: 15px;
+    font-family: 'quicksand', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
     color: white;
 }
 
@@ -116,7 +118,7 @@
 }
 
 .contact--mail p {
-    font-family: 'rem';
+    font-family: 'quicksand';
     font-size: 22px;
     letter-spacing: 0.5px;
     line-height: 2;
