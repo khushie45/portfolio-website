@@ -13,7 +13,7 @@ function Skills() {
         <button>REACTJS</button>
       </div>
       <div className="skills--section">
-        <h3>Front-end Frameworks: </h3>
+        <h3>Frameworks: </h3>
         <button>REACT ROUTER</button>
         <button>CONTEXT API</button>
         <button>MATERIAL UI</button>
