@@ -3,6 +3,7 @@ import Portfolio from '../../public/assets/Portfolio.png'
 import Formify from '../../public/assets/Formify.png'
 import TaskEase from '../../public/assets/TaskEase.png'
 import MemeMix from '../../public/assets/MemeMix.png'
+import Restaurant from '../../public/assets/Restaurant.png'
 
 export const projects = [
   {
@@ -18,6 +19,13 @@ export const projects = [
     image: Portfolio,
     github: "https://github.com/khushie45/portfolio-website",
     demo: "https://khushie-portfolio.netlify.app/"
+  },
+  {
+    title: "Roof Garden",
+    description: "Crafted with React, and Tailwind CSS, my project brings the Roof Garden Restaurant to life online. Explore menus, reviews, and videos through React Router, React Slick, React Player, and React Icons, offering an engaging user experience.",
+    image: Restaurant,
+    github: "https://github.com/khushie45/roof-garden-restaurant",
+    demo: "https://roof-garden-restaurant.netlify.app/"
   },
   {
     title: "Formify",
