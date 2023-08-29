@@ -11,7 +11,7 @@ export const projects = [
     description: "Crafted using React.js and Firebase, ShopSphere is an Amazon clone offers an immersive online shopping experience. Browse, add to cart, and seamlessly check out, all in one platform. Discover the convenience of e-commerce with my user-friendly and secure application.",
     image: ShopSphere,
     github: "https://github.com/khushie45/amazon-clone",
-    demo: "https://khushie45-amazon-clone.netlify.app/"
+    demo: "https://shop-sphere.netlify.app/"
   },
   {
     title: "My-Portfolio",
