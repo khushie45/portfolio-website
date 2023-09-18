@@ -16,7 +16,7 @@ function Skills() {
         <h3>Frameworks: </h3>
         <button>REACT ROUTER</button>
         <button>CONTEXT API</button>
-        <button>MATERIAL UI</button>
+        <button>TAILWIND CSS</button>
       </div>
       <div className="skills--section">
         <h3>Data Science: </h3>
@@ -31,9 +31,9 @@ function Skills() {
       <div className='skills--learningPath'>
         <h3>Learning Path:</h3>
         <ul>
-          <li>Exploring more about advanced React concepts such as hooks and custom hooks.</li>
+          <li>Exploring NextJS, a powerful React framework that simplifies server-side rendering and makes building dynamic web applications a breeze.</li>
           <li>Deepening my understanding of CSS methodologies and responsive design.</li>
-          <li>Diving into back-end technologies like Django to round out my full-stack knowledge.</li>
+          <li>Diving into back-end technologies like NodeJS to round out my full-stack knowledge.</li>
         </ul>
       </div>
     </div>
