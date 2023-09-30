@@ -19,6 +19,7 @@ import {
   SiVisualstudiocode,
   SiCplusplus,
 } from "react-icons/si";
+import Github from './Github';
 
 function Skills() {
   return (
@@ -94,6 +95,7 @@ function Skills() {
           <p>C++</p>
         </div>
       </div>
+      <Github />
       {/* <div className="skills--section">
         <h3>Front-end: </h3>
         <button>HTML</button>

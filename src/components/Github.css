@@ -1,0 +1,11 @@
+.github h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.github strong {
+    margin: 0 10px;
+    color: rgb(254, 110, 110);
+}
