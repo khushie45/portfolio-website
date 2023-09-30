@@ -3,7 +3,7 @@ import './AboutMe.css'
 import { HiOutlineDownload } from "react-icons/hi";
 import { MdOpenInNew } from "react-icons/md"
 import { FaArrowRightLong } from "react-icons/fa6"
-import Resume from "../../public/assets/Khushi-Patel-resume.pdf"
+import Resume from "../../public/assets/pdf/Khushi-Patel-resume.pdf"
 
 function AboutMe() {
   return (

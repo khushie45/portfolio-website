@@ -1,9 +1,9 @@
-import ShopSphere from '../../public/assets/ShopSphere.png'
-import Portfolio from '../../public/assets/Portfolio.png'
-import Formify from '../../public/assets/Formify.png'
-import TaskEase from '../../public/assets/TaskEase.png'
-import MemeMix from '../../public/assets/MemeMix.png'
-import Roofgarden from '../../public/assets/Roofgarden.png'
+import ShopSphere from '../../public/assets/images/ShopSphere.png'
+import Portfolio from '../../public/assets/images/Portfolio.png'
+import Formify from '../../public/assets/images/Formify.png'
+import TaskEase from '../../public/assets/images/TaskEase.png'
+import MemeMix from '../../public/assets/images/MemeMix.png'
+import Roofgarden from '../../public/assets/images/Roofgarden.png'
 
 export const projects = [
   {
