@@ -12,7 +12,6 @@ function Github() {
         username="khushie45"
         blockSize={15}
         blockMargin={5}
-        fontSize={18}
         colorScheme="light"
       />
     </div>
