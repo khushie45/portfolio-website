@@ -9,7 +9,7 @@ function Home() {
       <h1>Hi,</h1>
       <h1>I'm <span>Khushi Patel</span></h1>
       <h2><TypeWriter /></h2>
-      <p>Aspiring Software Engineer, fascinated by technology, fuelled by the desire to build creaitve applications</p>
+      <p>Aspiring Software Engineer, fascinated by technology, fuelled by the desire to build creative applications</p>
       <AnchorLink href='#about'>
         <button className='home--button'>Dive In</button>
       </AnchorLink>
