@@ -3,6 +3,7 @@
         .menu-icon {
             display: block;
             cursor: pointer;
+            margin-top: auto;
         }
 
         .menu-icon:hover {
@@ -75,6 +76,7 @@
 }
 
 .nav-elements li {
+    margin-top: 6px;
     padding: 0 10px;
     position: relative;
     overflow: hidden;
@@ -99,4 +101,5 @@
 .links {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }

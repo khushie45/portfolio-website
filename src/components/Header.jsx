@@ -1,12 +1,12 @@
 import React from 'react'
 import './Header.css'
 import { useState } from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { HiMenu } from 'react-icons/hi'
+import { Link } from 'react-scroll';
 
 function Header() {
-  const [showNavbar, setShowNavbar] = React.useState(false)
-  const [emoji, setEmoji] = React.useState("🍕")
+  const [showNavbar, setShowNavbar] = useState(false)
+  const [emoji, setEmoji] = useState("🍕")
 
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
@@ -23,29 +23,39 @@ function Header() {
     <nav className="navbar">
       <div className="container">
         <h1 onClick={toggleEmojis}>
-            &lt;Khushi {emoji}&gt;
+          &lt;Khushi {emoji}&gt;
         </h1>
         <div className="menu-icon" onClick={handleShowNavbar}>
-          <HiMenu size={25}/>
+          <HiMenu size={25} />
         </div>
         <div className={`nav-elements  ${showNavbar && "active"}`}>
           <ul>
-                <li>
-                  <AnchorLink className='links' href='#home'>Home</AnchorLink>
-                </li>
-                <li>
-                  <AnchorLink className='links' href='#about'>About</AnchorLink>
-                </li>
-                <li>
-                  <AnchorLink className='links' href='#projects'>Projects</AnchorLink>
-                </li>
-                <li>
-                  <AnchorLink className='links' href='#skills'>Skills</AnchorLink>
-                </li>
-                <li>
-                  <AnchorLink className='links' href='#contact'>Contact</AnchorLink>
-                </li>
-              </ul>
+            <li>
+              <Link to="home" smooth={true} offset={-120} duration={800} className='links'>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="about" smooth={true} offset={-120} duration={800} className='links'>
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="projects" smooth={true} offset={-120} duration={800} className='links'>
+                Projects
+              </Link>
+            </li>
+            <li>
+              <Link to="skills" smooth={true} offset={-120} duration={800} className='links'>
+                Skills
+              </Link>
+            </li>
+            <li>
+              <Link to="contact" smooth={true} offset={-120} duration={800} className='links'>
+                Contact
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>

@@ -18,6 +18,7 @@ import {
   SiFirebase,
   SiVisualstudiocode,
   SiCplusplus,
+  SiMui
 } from "react-icons/si";
 import Github from './Github';
 
@@ -61,6 +62,10 @@ function Skills() {
         <div className='skill--item'>
           <SiTailwindcss size="5rem" />
           <p>TAILWIND CSS</p>
+        </div>
+        <div className='skill--item'>
+          <SiMui size="5rem" />
+          <p>MATERIAL UI</p>
         </div>
         <div className='skill--item'>
           <SiBootstrap size="5rem" />
