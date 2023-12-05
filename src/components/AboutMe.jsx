@@ -10,28 +10,28 @@ function AboutMe() {
     <div id='about' className='about'>
       <h1>About Me</h1>
       <p className="about--info">
-          <li>🎓 I'm a final year student pursuing Bachelors of Technology in Computer Engineering at Charusat University.</li>
-          <li>💼 Currently seeking opportunities in front-end development.</li>
-          <li>🌟 I have a strong interest in web development and user interfaces</li>
-          <li>🚀 Proficient in ReactJS and passionate about creating interactive web applications.</li>
-          <li>📚 Continuous learner with a keen interest in staying updated with the latest tech trends.</li>
-          <li>🌈 Enjoy creating intuitive and visually appealing user experiences.</li>
-          <li>🎮 Outside coding, I love watching anime, reading books and exploring new places.</li>
+        <li>🎓 I'm a final year student pursuing Bachelors of Technology in Computer Engineering at Charusat University.</li>
+        <li>💼 Currently seeking opportunities in front-end development.</li>
+        <li>🌟 I have a strong interest in web development and user interfaces</li>
+        <li>🚀 Proficient in ReactJS and passionate about creating interactive web applications.</li>
+        <li>📚 Continuous learner with a keen interest in staying updated with the latest tech trends.</li>
+        <li>🌈 Enjoy creating intuitive and visually appealing user experiences.</li>
+        <li>🎮 Outside coding, I love watching anime, reading books and exploring new places.</li>
       </p>
-      
-      <div className="about--button">  
+
+      <div className="about--button">
         <button className='about--button--resume'>
-          Resume 
-          <FaArrowRightLong size={25} style={{marginLeft:'10px'}}/>
-          <a href="https://drive.google.com/file/d/14cfF9YKkhd_nvSnsu4ScHFPlEPIwK4TG/view?usp=sharing" target="_blank">
-          <button className='about--button--open'>
-            <MdOpenInNew size={30}/>
-          </button>
+          Resume
+          <FaArrowRightLong size={25} style={{ marginLeft: '10px' }} />
+          <a href="https://drive.google.com/file/d/1-ARqNzfqtcuJ092o0stmlYMeBLng2MI7/view?usp=sharing" target="_blank">
+            <button className='about--button--open'>
+              <MdOpenInNew size={30} />
+            </button>
           </a>
           <a href={Resume} download="Khushi-Patel-resume.pdf">
-          <button className='about--button--download'>
-            <HiOutlineDownload size={30}/>
-          </button>
+            <button className='about--button--download'>
+              <HiOutlineDownload size={30} />
+            </button>
           </a>
         </button>
       </div>

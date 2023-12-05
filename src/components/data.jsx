@@ -18,7 +18,7 @@ export const projects = [
     description: "Discover my portfolio website, built with React.js and an array of libraries. Experience a showcase of my projects and skills in a user-friendly and engaging format.",
     image: Portfolio,
     github: "https://github.com/khushie45/portfolio-website",
-    demo: "https://khushie-portfolio.netlify.app/"
+    demo: "https://khushipatel.dev/"
   },
   {
     title: "Roof Garden",
