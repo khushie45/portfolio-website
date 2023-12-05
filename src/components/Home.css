@@ -7,9 +7,10 @@
 }
 
 .home {
-    margin: 70px 100px;
+    margin: 50px 100px;
     line-height: 2;
     font-size: 23px;
+    height: 100vh;
 }
 
 .home span {
