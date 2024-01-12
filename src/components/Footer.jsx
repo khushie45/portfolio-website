@@ -14,7 +14,7 @@ function Footer() {
         <a href="https://www.linkedin.com/in/khushie45" target="_blank"><SiLinkedin size={40} /></a>
         <a href="https://twitter.com/khushie45" target="_blank"><SiTwitter size={40} /></a>
       </div>
-      <p>Coded with 💙 by Khushi Patel</p>
+      <p>Coded with ❤️ by Khushi Patel</p>
     </div>
   )
 }

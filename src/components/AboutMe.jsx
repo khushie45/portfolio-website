@@ -11,9 +11,9 @@ function AboutMe() {
       <h1>About Me</h1>
       <p className="about--info">
         <li>🎓 I'm a final year student pursuing Bachelors of Technology in Computer Engineering at Charusat University.</li>
-        <li>💼 Currently seeking opportunities in front-end development.</li>
-        <li>🌟 I have a strong interest in web development and user interfaces</li>
-        <li>🚀 Proficient in ReactJS and passionate about creating interactive web applications.</li>
+        <li>💼 Full-stack developer creating seamless and engaging web experiences.</li>
+        <li>🌟 Experienced in both front-end and back-end technologies.</li>
+        <li>🚀 Proficient in ReactJS and passionate about building interactive web applications across the entire stack.</li>
         <li>📚 Continuous learner with a keen interest in staying updated with the latest tech trends.</li>
         <li>🌈 Enjoy creating intuitive and visually appealing user experiences.</li>
         <li>🎮 Outside coding, I love watching anime, reading books and exploring new places.</li>

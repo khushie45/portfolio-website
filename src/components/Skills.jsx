@@ -18,7 +18,11 @@ import {
   SiFirebase,
   SiVisualstudiocode,
   SiCplusplus,
-  SiMui
+  SiMui,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiVercel
 } from "react-icons/si";
 import Github from './Github';
 
@@ -48,6 +52,18 @@ function Skills() {
           <p>NEXTJS</p>
         </div>
         <div className='skill--item'>
+          <SiNodedotjs size="5rem" />
+          <p>NODEJS</p>
+        </div>
+        <div className='skill--item'>
+          <SiExpress size="5rem" />
+          <p>EXPRESS</p>
+        </div>
+        <div className='skill--item'>
+          <SiMongodb size="5rem" />
+          <p>MONGODB</p>
+        </div>
+        <div className='skill--item'>
           <SiPython size="5rem" />
           <p>PYTHON</p>
         </div>
@@ -74,6 +90,10 @@ function Skills() {
         <div className='skill--item'>
           <SiNetlify size="5rem" />
           <p>NETLIFY</p>
+        </div>
+        <div className='skill--item'>
+          <SiVercel size="5rem" />
+          <p>VERCEL</p>
         </div>
         <div className='skill--item'>
           <SiRedux size="5rem" />
